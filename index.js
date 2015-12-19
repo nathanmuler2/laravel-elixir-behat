@@ -7,7 +7,7 @@ var Elixir = require('laravel-elixir'),
 Elixir.extend('behat', function(src, options) {
     runTests({
         name: 'Behat',
-        src: ((src || config.path) + '**/*feature'),
+        src: [((src || config.path) + '**/*feature'),((src || config.path) + '**/*Context.php')],
         plugin: behat,
         pluginOptions: _.extend(config.options, options)
     });
