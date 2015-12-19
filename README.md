@@ -16,7 +16,7 @@ elixir(function(mix) {
     mix.behat();
 });
 ```
-If you want to use `$ gulp tdd` it will automatically add the `test/features/` folder to your watch list.
+If you want to use `$ gulp tdd` it will automatically add the `features/` folder to your watch list.
 
 ## Customization
 You can customize each of the plugin settings, see the following
@@ -34,7 +34,7 @@ elixir(function(mix) {
 });
 ```
 ### Other Settings
-See [gulp-behat] for all lists of config. By Default `Notify` & `debug` are `True`
+See [gulp-behat] for all lists of config. By Default `Notify` is `True`
 
 License
 ----

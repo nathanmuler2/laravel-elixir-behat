@@ -1,14 +1,14 @@
-var Elixir = require('laravel-elixir');
-var behat = require('gulp-behat');
-var config = require('./Config');
-var runTests = require('../laravel-elixir/tasks/shared/Tests');
+var Elixir = require('laravel-elixir'),
+    behat = require('gulp-behat'),
+    config = require('./Config'),
+    runTests = require('../laravel-elixir/tasks/shared/Tests'),
+    _ = require('underscore');
 
 Elixir.extend('behat', function(src, options) {
-    console.log(config);
     runTests({
         name: 'Behat',
         src: ((src || config.path) + '**/*feature'),
         plugin: behat,
-        pluginOptions: options || config.options
+        pluginOptions: _.extend(config.options, options)
     });
 });
