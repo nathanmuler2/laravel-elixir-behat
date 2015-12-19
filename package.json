@@ -11,7 +11,7 @@
     "url": "https://github.com/nathenapse/laravel-elixir-behat-wrapper.git"
   },
   "dependencies": {
-    "gulp-behat": "^0.3.4",
+    "gulp-behat": "^0.3.4"
   },
   "keywords": [
     "gulp",
