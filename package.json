@@ -1,0 +1,28 @@
+{
+  "name": "laravel-elixir-behat-wrapper",
+  "version": "0.0.1",
+  "description": "Behat integration for Laravel Elixir 4 (Laravel 5.1)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathenapse/laravel-elixir-behat-wrapper.git"
+  },
+  "dependencies": {
+    "gulp-behat": "^0.3.4",
+  },
+  "keywords": [
+    "gulp",
+    "laravel",
+    "elixir",
+    "behat",
+    "test"
+  ],
+  "author": "Nathan Mulugeta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathenapse/laravel-elixir-behat-wrapper/issues"
+  }
+}
