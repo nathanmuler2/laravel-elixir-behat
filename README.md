@@ -2,7 +2,7 @@
 ## Installation
 
 ```
-npm install laravel-elixir-behat
+npm install laravel-elixir-behat --save-dev
 ```
 
 ## Require
