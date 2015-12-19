@@ -16,7 +16,7 @@ elixir(function(mix) {
     mix.behat();
 });
 ```
-If you want to use `$ gulp tdd` it will automatically add the `features/` folder to your watch list.
+If you want to use `$ gulp tdd` it will automatically add the `features/` folder to your watch list. And watches all `*.feature` and `*Context.php` files.
 
 ## Customization
 You can customize each of the plugin settings, see the following
