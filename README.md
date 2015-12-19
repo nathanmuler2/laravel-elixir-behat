@@ -2,7 +2,7 @@
 ## Installation
 
 ```
-npm install laravel-elixir-behat-wrapper --save-dev
+npm install laravel-elixir-behat-wrapper
 ```
 
 ## Require
